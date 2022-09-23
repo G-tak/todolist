@@ -18,7 +18,8 @@
     $step3= "Drink the water";
     $step4= "Set glass down";
         echo "<ol/>";
-        foreach (step as $step) {
+        //loop through data
+        foreach ($steps as $step) {
         echo "<li>".$step['Step_number'] . "</li>";
         }
         echo "</ol>";

@@ -1,9 +1,9 @@
 <!--- test commit --->
 
 <?php
-    include 'config.php';
-    include 'qry_items.php';
     $appname = "To do List";
+    $items = ["milk", "bananas", "ice cream"];
+    $items.= "item_name";
 ?>
 
 <!DOCTYPE html>
@@ -20,9 +20,10 @@
         echo "<ul/>";
         // loop through data  
         foreach ($items as $item) {
-            echo "<li>".$item['Item_name'] . "</li>";
+            $appname .=$items;
+           echo  "<li>".$items["item_name"] . "</li>";
         }
-        echo "</ul>";
+        "</ul>";
         
 
     ?>
