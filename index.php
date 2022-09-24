@@ -1,48 +1,14 @@
-<!--- test commit --->
-
 <?php
-    $appname = "To do List";
-    $items = ["milk", "bananas", "ice cream"];
-    $items.= "item_name";
+  $appName="Geoffrey's Projects";
 ?>
+<?php include 'includes/header.php';?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $appname ?></title>
-</head>
-<body>
-    <h1><?= $appname ?></h1>
-    <?php
-        echo "<ul/>";
-        // loop through data  
-        foreach ($items as $item) {
-            $appname .=$items;
-           echo  "<li>".$items["item_name"] . "</li>";
-        }
-        "</ul>";
-        
+<div class="container-fluid mt-3 ms-1">
+    <h3>Projects Information</h3>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eius quo magni ipsa debitis accusantium aliquid unde, perferendis consequuntur voluptate velit laboriosam architecto aperiam obcaecati cum id assumenda rerum provident?
+    </div>
+</div>
 
-    ?>
+<?php include 'includes/footer.php';?>
 
-<!-- 
-    Create a Input Form with HTML 
-    Create a second table with data 
-    display on a second page the seccond table.
-
--->
-
-
-</body>
-</html>
-
-<!--- 
-
-CRUD
-
-Create Read Update and Delete
-
-    -->
